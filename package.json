@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "sharp": "^0.33.4",
+    "ugly-avatar": "^1.0.3"
+  }
+}

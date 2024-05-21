@@ -12,11 +12,13 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment: production
+
     steps:
     - uses: actions/checkout@v4
     
     - name: Login Dockerhub
-      run: docker login -u ${{secrets.USERNAME}} -p ${{secrets.PASSWORD}}
+      run: docker login -u ${{secrets.DOCKER_USER}} -p ${{secrets.DOCKER_PASSWORD}}
       
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag dreamplay/hello_avatar:latest

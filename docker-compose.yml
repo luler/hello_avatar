@@ -1,6 +1,6 @@
 version: '3'
 services:
   hello_avatar:
-    build: .
+    image: dreamplay/hello_avatar
     ports:
       - 13130:13130

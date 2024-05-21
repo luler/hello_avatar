@@ -20,13 +20,13 @@ jobs:
       - name: Login Dockerhub
         run: docker login -u ${{secrets.DOCKER_USER}} -p ${{secrets.DOCKER_PASSWORD}}
 
-      - name: Build the Docker image and push the Docker image latest label
-        run: |
-          docker build . --file Dockerfile --tag dreamplay/hello_avatar:latest
-          docker push dreamplay/hello_avatar:latest
-
       - name: Build the Docker image and push the Docker image Date label
         run: |
           DATE_TAG=$(date +'%Y-%m-%d')
           docker build . --file Dockerfile --tag dreamplay/hello_avatar:$DATE_TAG
           docker push dreamplay/hello_avatar:$DATE_TAG
+
+      - name: Build the Docker image and push the Docker image latest label
+        run: |
+          docker build . --file Dockerfile --tag dreamplay/hello_avatar:latest
+          docker push dreamplay/hello_avatar:latest

@@ -2,10 +2,80 @@
 # yarn lockfile v1
 
 
+"@dicebear/avatars-avataaars-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-avataaars-sprites/-/avatars-avataaars-sprites-4.10.8.tgz"
+  integrity sha512-R0B561ckFtY4Uv84mscVcPJrNeMM2RsB/1384rKuQCIgCBrlNNUCWxVZEhLPM9SaC2eerzI0Z8kvl21olptBrQ==
+
+"@dicebear/avatars-bottts-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-bottts-sprites/-/avatars-bottts-sprites-4.10.8.tgz"
+  integrity sha512-XwZkfDO6qyKEyHeU9Skk6lodteIzFm/wP3qUyve9nQx8Q1Y3tz39apfI6uHe9rsJcGSgehNlcWi/QIhb0atvmg==
+
+"@dicebear/avatars-female-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-female-sprites/-/avatars-female-sprites-4.10.8.tgz"
+  integrity sha512-ruQCy+9Gt/naNZG4ChKYw1ZtLiI52PUtiH/8R6mcRVVjfTlJKjy4krIY/io4ioXJZsCvGPXpEXVhVOHKV5nRoA==
+
+"@dicebear/avatars-gridy-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-gridy-sprites/-/avatars-gridy-sprites-4.10.8.tgz"
+  integrity sha512-05GH9yIL899EBadrP3HpcugHVWzE6oCD0j799NujNLrGOeGiAHvLMtpcx1UgkdFJt5Znsw9QMFBD/WdtH5c4xw==
+  dependencies:
+    gridy-avatars "^1.1.3"
+
+"@dicebear/avatars-human-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-human-sprites/-/avatars-human-sprites-4.10.8.tgz"
+  integrity sha512-boYIg4DHFH8JFU3SsRhJLDH5LFzsgEblK3ArJzT7d8SUGCCx7wPDG01K/isMG9EcxmN5+y1VxVJgHgECGVBM+Q==
+  dependencies:
+    "@dicebear/avatars-female-sprites" "^4.10.8"
+    "@dicebear/avatars-male-sprites" "^4.10.8"
+
+"@dicebear/avatars-identicon-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-identicon-sprites/-/avatars-identicon-sprites-4.10.8.tgz"
+  integrity sha512-eUeD0X6AYB49PY6mlh12SPEEozlrLKsZx+MQv+Dvwz8V4uZH1LV1O9tiXegmd+MskruICUGvSk30x0tmoR2aZA==
+
+"@dicebear/avatars-initials-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-initials-sprites/-/avatars-initials-sprites-4.10.8.tgz"
+  integrity sha512-A+Ipgw2mso4TFozAE0Akq/jEjvguRL/Ftc5/JGBUnWfBkY1GTIh71yb0mth6mKE+tzgltFj1Gp8FYArIrC/tEA==
+  dependencies:
+    initials "^3.0.1"
+
+"@dicebear/avatars-male-sprites@^4.10.8":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars-male-sprites/-/avatars-male-sprites-4.10.8.tgz"
+  integrity sha512-E9Y658Ix5UnVpW4uHWA4Dtuz0SaMzUirKYdpbOdAieuihBidkyHl47dcR3g8w8E65jzSo+bGei/ksYINdxvf3A==
+  dependencies:
+    "@types/json-schema" "^7.0.7"
+
+"@dicebear/avatars@^4.10.8", "@dicebear/avatars@^4.6.0":
+  version "4.10.8"
+  resolved "https://registry.npmmirror.com/@dicebear/avatars/-/avatars-4.10.8.tgz"
+  integrity sha512-jni3+W1yRRh4sJYmuQUZ8JpKI9aEEud53TUcxNFtntdRyOUJygIFdC5JPKNac58eALnBTZZ4ox7b+oeo0Ux/oA==
+  dependencies:
+    "@types/json-schema" "^7.0.7"
+    pure-color "^1.3.0"
+    svgson "^5.2.1"
+
 "@img/sharp-win32-x64@0.33.4":
   version "0.33.4"
   resolved "https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.33.4.tgz"
   integrity sha512-3QLocdTRVIrFNye5YocZl+KKpYKP+fksi1QhmOArgx7GyhIbQp/WrJRu176jm8IxromS7RIkzMiMINVdBtC8Aw==
+
+"@types/json-schema@^7.0.7":
+  version "7.0.15"
+  resolved "https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.15.tgz"
+  integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
+
+"@types/node@*":
+  version "20.12.12"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-20.12.12.tgz"
+  integrity sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==
+  dependencies:
+    undici-types "~5.26.4"
 
 accepts@~1.3.8:
   version "1.3.8"
@@ -53,6 +123,13 @@ call-bind@^1.0.7:
     function-bind "^1.1.2"
     get-intrinsic "^1.2.4"
     set-function-length "^1.2.1"
+
+canvas-renderer@~2.2.0:
+  version "2.2.1"
+  resolved "https://registry.npmmirror.com/canvas-renderer/-/canvas-renderer-2.2.1.tgz"
+  integrity sha512-RrBgVL5qCEDIXpJ6NrzyRNoTnXxYarqm/cS/W6ERhUJts5UQtt/XPEosGN3rqUkZ4fjBArlnCbsISJ+KCFnIAg==
+  dependencies:
+    "@types/node" "*"
 
 color-convert@^2.0.1:
   version "2.0.1"
@@ -104,12 +181,25 @@ cookie@0.6.0:
   resolved "https://registry.npmmirror.com/cookie/-/cookie-0.6.0.tgz"
   integrity sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
 
+d3-color@^1.0.3:
+  version "1.4.1"
+  resolved "https://registry.npmmirror.com/d3-color/-/d3-color-1.4.1.tgz"
+  integrity sha512-p2sTHSLCJI2QKunbGb7ocOh7DgTAn8IrLx21QRc/BSnodXM4sv6aLQlnfpvehFMLZEfBc6g9pH9SWQccFYfJ9Q==
+
 debug@2.6.9:
   version "2.6.9"
   resolved "https://registry.npmmirror.com/debug/-/debug-2.6.9.tgz"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
   dependencies:
     ms "2.0.0"
+
+deep-rename-keys@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmmirror.com/deep-rename-keys/-/deep-rename-keys-0.2.1.tgz"
+  integrity sha512-RHd9ABw4Fvk+gYDWqwOftG849x0bYOySl/RgX0tLI9i27ZIeSO91mLZJEp7oPHOMFqHvpgu21YptmDt0FYD/0A==
+  dependencies:
+    kind-of "^3.0.2"
+    rename-keys "^1.1.2"
 
 define-data-property@^1.1.4:
   version "1.1.4"
@@ -166,6 +256,11 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.npmmirror.com/etag/-/etag-1.8.1.tgz"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
+
+eventemitter3@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.npmmirror.com/eventemitter3/-/eventemitter3-2.0.3.tgz"
+  integrity sha512-jLN68Dx5kyFHaePoXWPsCGW5qdyZQtLYHkxkg02/Mz6g0kYpDx4FyP6XfArhQdlOC4b8Mv+EMxPo/8La7Tzghg==
 
 express@^4.19.2:
   version "4.19.2"
@@ -250,6 +345,13 @@ gopd@^1.0.1:
   dependencies:
     get-intrinsic "^1.1.3"
 
+gridy-avatars@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.npmmirror.com/gridy-avatars/-/gridy-avatars-1.1.3.tgz"
+  integrity sha512-TVDHcof5MSZqrVYL5q2K3PCYigE4mzKbtKYSKW9Wsyf5+vFbQlIWmCW+QrHTIgrSbBRbNXTO+8AV2uc0K35K/g==
+  dependencies:
+    d3-color "^1.0.3"
+
 has-property-descriptors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz"
@@ -297,6 +399,11 @@ inherits@2.0.4:
   resolved "https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+initials@^3.0.1:
+  version "3.1.2"
+  resolved "https://registry.npmmirror.com/initials/-/initials-3.1.2.tgz"
+  integrity sha512-Sltg35nx8+GX1w4U86rmbxFEmqFiSuMJviS6cB2KChB+jcT2/8Td+nlImXD74HkqpZF5PMv8hN57AyrA/7ltXw==
+
 ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.npmmirror.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz"
@@ -306,6 +413,25 @@ is-arrayish@^0.3.1:
   version "0.3.2"
   resolved "https://registry.npmmirror.com/is-arrayish/-/is-arrayish-0.3.2.tgz"
   integrity sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
+
+is-buffer@^1.1.5:
+  version "1.1.6"
+  resolved "https://registry.npmmirror.com/is-buffer/-/is-buffer-1.1.6.tgz"
+  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+
+jdenticon@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmmirror.com/jdenticon/-/jdenticon-3.3.0.tgz"
+  integrity sha512-DhuBRNRIybGPeAjMjdHbkIfiwZCCmf8ggu7C49jhp6aJ7DYsZfudnvnTY5/1vgUhrGA7JaDAx1WevnpjCPvaGg==
+  dependencies:
+    canvas-renderer "~2.2.0"
+
+kind-of@^3.0.2:
+  version "3.2.2"
+  resolved "https://registry.npmmirror.com/kind-of/-/kind-of-3.2.2.tgz"
+  integrity sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==
+  dependencies:
+    is-buffer "^1.1.5"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -384,6 +510,11 @@ proxy-addr@~2.0.7:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
 
+pure-color@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmmirror.com/pure-color/-/pure-color-1.3.0.tgz"
+  integrity sha512-QFADYnsVoBMw1srW7OVKEYjG+MbIa49s54w1MA1EDY6r2r/sTcKKYqRX1f4GYvnXP7eN/Pe9HFcX+hwzmrXRHA==
+
 qs@6.11.0:
   version "6.11.0"
   resolved "https://registry.npmmirror.com/qs/-/qs-6.11.0.tgz"
@@ -405,6 +536,11 @@ raw-body@2.5.2:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+rename-keys@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/rename-keys/-/rename-keys-1.2.0.tgz"
+  integrity sha512-U7XpAktpbSgHTRSNRrjKSrjYkZKuhUukfoBlXWXUExCAqhzh1TU3BDRAfJmarcl5voKS+pbKU9MvyLWKZ4UEEg==
 
 safe-buffer@5.2.1:
   version "5.2.1"
@@ -518,6 +654,14 @@ statuses@2.0.1:
   resolved "https://registry.npmmirror.com/statuses/-/statuses-2.0.1.tgz"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
+svgson@^5.2.1:
+  version "5.3.1"
+  resolved "https://registry.npmmirror.com/svgson/-/svgson-5.3.1.tgz"
+  integrity sha512-qdPgvUNWb40gWktBJnbJRelWcPzkLed/ShhnRsjbayXz8OtdPOzbil9jtiZdrYvSDumAz/VNQr6JaNfPx/gvPA==
+  dependencies:
+    deep-rename-keys "^0.2.1"
+    xml-reader "2.4.3"
+
 toidentifier@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz"
@@ -536,6 +680,11 @@ ugly-avatar@^1.0.3:
   resolved "https://registry.npmmirror.com/ugly-avatar/-/ugly-avatar-1.0.3.tgz"
   integrity sha512-CNsuXB86pIk1mY6YEUDSaDDO4bbVKK0A6fXyuKDvKBUa9HMYM72nHAYs4QN7/GOSR4iCwSxIjaz+VhiMcSdCjQ==
 
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmmirror.com/undici-types/-/undici-types-5.26.5.tgz"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
+
 unpipe@~1.0.0, unpipe@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/unpipe/-/unpipe-1.0.0.tgz"
@@ -546,7 +695,27 @@ utils-merge@1.0.1:
   resolved "https://registry.npmmirror.com/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.npmmirror.com/uuid/-/uuid-9.0.1.tgz"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+xml-lexer@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmmirror.com/xml-lexer/-/xml-lexer-0.2.2.tgz"
+  integrity sha512-G0i98epIwiUEiKmMcavmVdhtymW+pCAohMRgybyIME9ygfVu8QheIi+YoQh3ngiThsT0SQzJT4R0sKDEv8Ou0w==
+  dependencies:
+    eventemitter3 "^2.0.0"
+
+xml-reader@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.npmmirror.com/xml-reader/-/xml-reader-2.4.3.tgz"
+  integrity sha512-xWldrIxjeAMAu6+HSf9t50ot1uL5M+BtOidRCWHXIeewvSeIpscWCsp4Zxjk8kHHhdqFBrfK8U0EJeCcnyQ/gA==
+  dependencies:
+    eventemitter3 "^2.0.0"
+    xml-lexer "^0.2.2"

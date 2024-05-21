@@ -1,7 +1,18 @@
 {
   "dependencies": {
+    "@dicebear/avatars": "^4.10.8",
+    "@dicebear/avatars-avataaars-sprites": "^4.10.8",
+    "@dicebear/avatars-bottts-sprites": "^4.10.8",
+    "@dicebear/avatars-female-sprites": "^4.10.8",
+    "@dicebear/avatars-gridy-sprites": "^4.10.8",
+    "@dicebear/avatars-human-sprites": "^4.10.8",
+    "@dicebear/avatars-identicon-sprites": "^4.10.8",
+    "@dicebear/avatars-initials-sprites": "^4.10.8",
+    "@dicebear/avatars-male-sprites": "^4.10.8",
     "express": "^4.19.2",
+    "jdenticon": "^3.3.0",
     "sharp": "^0.33.4",
-    "ugly-avatar": "^1.0.3"
+    "ugly-avatar": "^1.0.3",
+    "uuid": "^9.0.1"
   }
 }

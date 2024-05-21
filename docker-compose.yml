@@ -3,4 +3,4 @@ services:
   hello_avatar:
     build: .
     ports:
-      - 3000:3000
+      - 13130:13130

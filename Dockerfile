@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm install
 # 将你的应用代码拷贝到容器中
 COPY . .
-# 对外暴露3000端口
-EXPOSE 3000
+# 对外暴露13130端口
+EXPOSE 13130
 # 运行应用
 CMD [ "node", "app.js" ]

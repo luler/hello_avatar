@@ -6,3 +6,4 @@ Dockerfile
 .gitignore
 .idea
 images
+web/node_modules

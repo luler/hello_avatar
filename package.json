@@ -9,6 +9,7 @@
     "@dicebear/avatars-identicon-sprites": "^4.10.8",
     "@dicebear/avatars-initials-sprites": "^4.10.8",
     "@dicebear/avatars-male-sprites": "^4.10.8",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "jdenticon": "^3.3.0",
     "sharp": "^0.33.4",

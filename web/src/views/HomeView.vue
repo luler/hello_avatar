@@ -87,19 +87,19 @@ export default {
   data () {
     return {
       card_list1: [
-        { url: `http://localhost:13130/avatar?type=ugly-avatar&r=`, title: 'ugly-avatar' },
-        { url: `http://localhost:13130/avatar?type=multiavatar&r=`, title: 'multiavatar' },
-        { url: `http://localhost:13130/avatar?type=jdenticon&r=`, title: 'jdenticon' },
+        { url: `/avatar?type=ugly-avatar&r=`, title: 'ugly-avatar' },
+        { url: `/avatar?type=multiavatar&r=`, title: 'multiavatar' },
+        { url: `/avatar?type=jdenticon&r=`, title: 'jdenticon' },
       ],
       card_list2: [
-        { url: `http://localhost:13130/avatar?type=dicebear&style=male&r=`, title: 'dicebear+male' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=female&r=`, title: 'dicebear+female' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=avataaars&r=`, title: 'dicebear+avataaars' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=bottts&r=`, title: 'dicebear+bottts' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=gridy&r=`, title: 'dicebear+gridy' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=human&r=`, title: 'dicebear+human' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=identicon&r=`, title: 'dicebear+identicon' },
-        { url: `http://localhost:13130/avatar?type=dicebear&style=initials&r=`, title: 'dicebear+initials+uuid' },
+        { url: `/avatar?type=dicebear&style=male&r=`, title: 'dicebear+male' },
+        { url: `/avatar?type=dicebear&style=female&r=`, title: 'dicebear+female' },
+        { url: `/avatar?type=dicebear&style=avataaars&r=`, title: 'dicebear+avataaars' },
+        { url: `/avatar?type=dicebear&style=bottts&r=`, title: 'dicebear+bottts' },
+        { url: `/avatar?type=dicebear&style=gridy&r=`, title: 'dicebear+gridy' },
+        { url: `/avatar?type=dicebear&style=human&r=`, title: 'dicebear+human' },
+        { url: `/avatar?type=dicebear&style=identicon&r=`, title: 'dicebear+identicon' },
+        { url: `/avatar?type=dicebear&style=initials&r=`, title: 'dicebear+initials+uuid' },
       ]
     }
   },

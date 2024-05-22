@@ -4,6 +4,16 @@
 
 # 安装
 
+docker-compose.yml
+```
+version: '3'
+services:
+  hello_avatar:
+    image: dreamplay/hello_avatar
+    ports:
+      - 13130:13130
+```
+运行
 ```
 docker-compose up -d
 ```

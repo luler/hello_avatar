@@ -2,5 +2,6 @@ version: '3'
 services:
   hello_avatar:
     image: dreamplay/hello_avatar
+    restart: always
     ports:
       - 13130:13130

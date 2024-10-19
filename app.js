@@ -13,6 +13,8 @@ const styleHuman = require('@dicebear/avatars-human-sprites')
 const styleIdenticon = require('@dicebear/avatars-identicon-sprites')
 const styleInitials = require('@dicebear/avatars-initials-sprites')
 
+const { generate, faceToSvgString } = require('facesjs')
+
 const https = require('https')
 const { v4: uuidv4 } = require('uuid')
 const cors = require('cors')
@@ -99,11 +101,15 @@ app.get('/avatar', (req, res) => {
       })
       responseImage(dicebear, res)
       break
+    case 'facesjs':
+      let gender = req.query.gender
+      const face = generate(undefined, { gender: gender })
+      responseImage(faceToSvgString(face), res)
+      break
     case 'ugly-avatar':
     default:
       const avatar = new GenerateUglyAvatar()
-      const svg = avatar.generateFace()
-      responseImage(svg, res)
+      responseImage(avatar.generateFace(), res)
       break
   }
 })

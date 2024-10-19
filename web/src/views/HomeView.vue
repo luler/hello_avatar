@@ -90,6 +90,8 @@ export default {
         { url: `/avatar?type=ugly-avatar&r=`, title: 'ugly-avatar' },
         { url: `/avatar?type=multiavatar&r=`, title: 'multiavatar' },
         { url: `/avatar?type=jdenticon&r=`, title: 'jdenticon' },
+        { url: `/avatar?type=facesjs&gender=male&r=`, title: 'facesjs+male' },
+        { url: `/avatar?type=facesjs&gender=female&r=`, title: 'facesjs+female' },
       ],
       card_list2: [
         { url: `/avatar?type=dicebear&style=male&r=`, title: 'dicebear+male' },

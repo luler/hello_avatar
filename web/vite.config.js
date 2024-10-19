@@ -16,6 +16,7 @@ export default defineConfig({
     }
   },
   server: {
+    port: 3000, // 或者其他可用的端口
     proxy: {
       '/avatar': {
         target: 'http://localhost:13130',

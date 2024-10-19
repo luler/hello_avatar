@@ -31,11 +31,12 @@ docker-compose up -d
 
 参数控制：
 
-| 字段    | 是否必填 | 类型     | 简介                                                                                                                                                                                                                                               |
-|-------|------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| type  | 否    | string | 生成头像类型，<br/>ugly-avatar-丑头像（默认），参考：https://github.com/txstc55/ugly-avatar<br/>multiavatar-插画头像，参考：https://multiavatar.com/<br/>jdenticon-随机头像，参考：https://jdenticon.com/icon-designer.html <br/>dicebear-风格头像，参考：https://www.dicebear.com/styles/ |
-| style | 否    | string | 风格类型，仅当type=dicebear时有效<br/>male-男性风格<br/>female-女性风格<br/>avataaars-由Avataaars设计的头像<br/>bottts-像素机器人<br/>gridy-棋盘格式风格<br/>human-贴近真实人类样貌<br/>identicon-GitHub使用的Identicons风格的头像<br/>initials-显示用户初始字母的简单风格                                       |
-| seed  | 否    | string | 头像生成种子变量，仅当type=dicebear且style=initials时有效                                                                                                                                                                                                       |
+| 字段     | 是否必填 | 类型     | 简介                                                                                                                                                                                                                                                                      |
+|--------|------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| type   | 否    | string | 生成头像类型，<br/>ugly-avatar-丑头像（默认），参考：https://github.com/txstc55/ugly-avatar<br/>multiavatar-插画头像，参考：https://multiavatar.com/<br/>jdenticon-随机头像，参考：https://jdenticon.com/icon-designer.html <br/>facesjs-漫画风格头像，参考：https://github.com/zengm-games/facesjs<br/>dicebear-风格头像，参考：https://www.dicebear.com/styles/ |
+| style  | 否    | string | 风格类型，仅当type=dicebear时有效<br/>male-男性风格<br/>female-女性风格<br/>avataaars-由Avataaars设计的头像<br/>bottts-像素机器人<br/>gridy-棋盘格式风格<br/>human-贴近真实人类样貌<br/>identicon-GitHub使用的Identicons风格的头像<br/>initials-显示用户初始字母的简单风格                                                              |
+| seed   | 否    | string | 头像生成种子变量，仅当type=dicebear且style=initials时有效                                                                                                                                                                                                                              |
+| gender | 否    | string | 头像生成性别，仅当type=facesjs时有效                                                                                                                                                                                                                                                |
 
 # 参考图片
 
@@ -50,6 +51,13 @@ docker-compose up -d
 > type=jdenticon
 
 ![](images/example3.png)
+
+> type=facesjs
+
+| 性别  | male                      | female                    |
+|---|---------------------------|---------------------------|
+| 示例  | ![](images/example12.png) | ![](images/example13.png) |
+
 
 > type=dicebear
 

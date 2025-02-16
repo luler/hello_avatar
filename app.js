@@ -15,7 +15,8 @@ const styleInitials = require('@dicebear/avatars-initials-sprites')
 
 const { generate, faceToSvgString } = require('facesjs')
 
-const https = require('https')
+const multiavatar = require('@multiavatar/multiavatar')
+
 const { v4: uuidv4 } = require('uuid')
 const cors = require('cors')
 const path = require('path')
@@ -28,28 +29,7 @@ app.get('/avatar', (req, res) => {
   let type = req.query.type
   switch (type) {
     case 'multiavatar':
-      const multiavatar = 'https://api.multiavatar.com/' + uuidv4() + '.png'
-      https.get(multiavatar, (imageResponse) => {
-        // 检查响应状态码
-        if (imageResponse.statusCode !== 200) {
-          console.error('Error loading multiavatar image statusCode: ', imageResponse.statusCode)
-          return res.status(500).send('Error processing multiavatar image.')
-        }
-        // 创建一个空的Buffer来存储图片数据
-        let imageBuffer = Buffer.alloc(0)
-        // 监听数据事件，将数据累加到imageBuffer中
-        imageResponse.on('data', (chunk) => {
-          imageBuffer = Buffer.concat([imageBuffer, chunk])
-        })
-        // 监听结束事件，当所有数据都接收完毕后发送图片数据
-        imageResponse.on('end', () => {
-          responseImage(imageBuffer, res)
-        })
-      }).on('error', (err) => {
-        // 如果发生错误，返回错误信息
-        console.error('Error loading multiavatar image: ', err)
-        res.status(500).send('Error processing multiavatar image.')
-      })
+      responseImage(multiavatar(uuidv4()), res)
       break
     case 'jdenticon':
       jdenticon.configure({

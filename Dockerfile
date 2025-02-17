@@ -1,5 +1,5 @@
 # 选择一个包含Node.js的基础镜像
-FROM node:18
+FROM node:18-alpine
 # 设置工作目录
 WORKDIR /usr/src/app
 # 安装依赖

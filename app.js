@@ -77,7 +77,7 @@ app.get('/avatar', (req, res) => {
       }
 
       const dicebear = createAvatar(styleAvatar, {
-        seed: seed + uuidv4(),
+        seed: seed ? seed : uuidv4(),
       })
       responseImage(dicebear, res)
       break
